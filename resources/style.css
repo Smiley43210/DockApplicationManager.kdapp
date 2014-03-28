@@ -1,0 +1,31 @@
+.dockutil-app {
+  overflow: auto;
+  margin: 70px auto;
+  max-width: 600px;
+  padding: 5px 15px 15px;
+  width: auto;
+  height: auto;
+  background-color: rgba(255,255,255,0.9);
+  border-radius: 5px;
+}
+
+.dockutil-app input {
+  margin: 20px 0;
+  background-color: #ccc !important;
+}
+
+.dockutil-app button {
+  margin: 0 5px;
+  background-color: #ccc !important;
+  vertical-align: middle;
+}
+
+.refresh {
+  margin: 0 !important;
+}
+
+.app-label {
+  color: #000000 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}

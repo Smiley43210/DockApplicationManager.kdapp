@@ -1,0 +1,39 @@
+{
+  "experimental": false,
+  "background": false,
+  "hiddenHandle": false,
+  "forceUpdate": true,
+  "behavior": "application",
+  "version": "0.2",
+  "title": "DockApplicationManager",
+  "name": "DockApplicationManager",
+  "identifier": "com.koding.apps.dockapplicationmanager",
+  "path": "~/Applications/DockApplicationManager.kdapp",
+  "homepage": "smiley43210.kd.io/DockApplicationManager",
+  "author": "Ethan Chow",
+  "authorNick": "smiley43210",
+  "repository": "git://github.com/smiley43210/dockapplicationmanager.kdapp.git",
+  "description": "Utility to manage the application icons on your dock and quit running applications.",
+  "category": "misc",
+  "source": {
+    "blocks": {
+      "app": {
+        "files": [
+          "./index.coffee"
+        ]
+      }
+    },
+    "stylesheets": [
+      "./resources/style.css"
+    ]
+  },
+  "options": {
+    "type": "tab"
+  },
+  "icns": {
+    "128": "./resources/icon.128.png"
+  },
+  "screenshots": [],
+  "menu": [],
+  "fileTypes": []
+}
